@@ -11,4 +11,10 @@ void iter(T* array, size_t length, void (*f)(const T&))
 	}
 }
 
+template <typename T>
+void print(const T& value)
+{
+	std::cout << value << std::endl;
+}
+
 #endif

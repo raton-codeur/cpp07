@@ -12,8 +12,8 @@ int main()
 		std::cout << "b : " << b << std::endl;
 
 		std::cout << "--- 2 ---" << std::endl;
-		std::cout << "min(a, b) : " << min(a, b) << std::endl;
-		std::cout << "max(a, b) : " << max(a, b) << std::endl;
+		std::cout << "min(a, b) : " << ::min(a, b) << std::endl;
+		std::cout << "max(a, b) : " << ::max(a, b) << std::endl;
 	}
 	{
 		std::string a = "s1";
@@ -25,7 +25,7 @@ int main()
 		std::cout << "b : " << b << std::endl;
 
 		std::cout << "--- 4 ---" << std::endl;
-		std::cout << "min(a, b) : " << min(a, b) << std::endl;
-		std::cout << "max(a, b) : " << max(a, b) << std::endl;
+		std::cout << "min(a, b) : " << ::min(a, b) << std::endl;
+		std::cout << "max(a, b) : " << ::max(a, b) << std::endl;
 	}
 }
