@@ -14,7 +14,7 @@ int main()
 	{
 		std::string* array = new std::string[length];
 		for (size_t i = 0; i < length; i++)
-			array[i] = std::to_string(i);
+			array[i] = std::string(1, 'a' + i);
 		std::cout << "---" << std::endl;
 		iter(array, length, print);
 		delete[] array;
